@@ -14,7 +14,7 @@ cd pprof-study
 
 go mod tidy
 
-go run mian.go
+go run main.go
 ```
 
 ## 方式1: web 
