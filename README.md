@@ -109,6 +109,8 @@ ROUTINE ======================== pprof-study/pprofin/groutineimpl.(*PprofGorouti
 
 ## 方式3: graph图/火焰图
 
+**一般是 CPU 耗时, 因为只有耗时才需要统计, 其他都可以通过快照实现**
+
 ### 示例优化 profile CPU
 
 (1) 下载 sample 文件(方式和打开命令行的一样)
